@@ -143,6 +143,16 @@
     background-color: blue;
     padding:0.5rem;
     border-radius: 0.5rem;
+    color: white;
+
+}
+
+.projectblockproject:visited{
+    margin:0.5rem;
+    background-color: blue;
+    color: white;
+    padding:0.5rem;
+    border-radius: 0.5rem;
 
 }
 

@@ -29,7 +29,7 @@ const Client = () => {
         })
         .then(() => {
             console.log('SUCCESS!');
-            alert('eamil sned succeefully')
+            alert('email send sucessfully')
             form.current.reset()
         }, (error) => {
             console.log('FAILED...', error.text);

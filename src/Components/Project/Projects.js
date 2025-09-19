@@ -31,9 +31,9 @@ const Projects = () => {
             <span className='projectblockskill'> ml5.js</span>
           </div>
           <div className='projectblockprojects'>
-            <span className='projectblockproject'>Documation</span>
-            <span className='projectblockproject'>View Code</span>
-            <span className='projectblockproject'>Live Demo</span>
+            <a href='https://drive.google.com/file/d/1-8VUXsGRNVreb5M8b-UIlPLIbYZJcuq6/view?usp=sharing' className='projectblockproject' target="_blank" rel="noopener noreferrer">Documation</a>
+            <a href="https://github.com/Beepalisrikanth/FlexiPose-Smart-Motion-Tracking-with-Real-Time-PoseNet-AI-" className='projectblockproject'target="_blank" rel="noopener noreferrer">View Code</a>
+            <a href=" https://flexipose.onrender.com/" className='projectblockproject' target="_blank" rel="noopener noreferrer">Live Demo</a>
           </div>
         </div>
 
