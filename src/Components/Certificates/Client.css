@@ -1,0 +1,155 @@
+#clientPage{
+    min-height: calc(100vh - 4rem);
+    width: 100%;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.clientPageTitle, .ContactpageTitle{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+     
+}
+
+.clintDesc, .contactDesc{
+    font-weight: 300;
+    font-style: 1rem;
+
+}
+
+.certificateblocks{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.certificateblock{
+    border: 1px solid yellow;
+    margin: 1rem;
+    padding: 1rem;
+    width: 25rem;
+    min-height: 18rem;
+    max-height: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.certificateblockimg{
+    object-fit: cover;
+    height: 3rem;
+}
+
+.certificateblockimg:hover{
+    object-fit: cover;
+    height: 3rem;
+    border: 1px solid yellow;
+    border-radius: 0.5rem;
+}
+
+.certificateblocktitle{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.certificateblocksubtitle{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.certificateblockdesc{
+    font-size: 0.7rem;
+    font-weight: 200;
+}
+
+.certificateblocklinks{
+    padding:0.5rem;
+    margin:1rem 0;
+    background-color: rgb(72, 68, 126) ;
+    border-radius: 1rem;
+    width: 10rem;
+    display:block;
+    justify-self: center;
+    align-self: center;
+}
+
+.certificateblocklink:visited{
+    color:white
+}
+
+
+/* .clientImgs{
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.clientImg{
+    object-fit: cover;
+    width: 23%;
+    min-width: 9rem;
+    margin:auto;
+    padding: 0.25rem;
+
+} */
+
+
+.contactForm{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+                                                                   
+}
+
+.name, .email, .area{
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background-color:rgb(72, 68, 126) ;
+
+}
+
+.submitbtn{
+    background:white;
+    border: none;
+    padding: 0.75rem 3.5rem;
+    margin: 2rem;
+    border-radius:0.5rem ;
+
+
+}
+
+.links{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.link{
+    object-fit:cover;
+    height: 3rem;
+    width: 3rem;
+    margin:0 0.75rem;
+}

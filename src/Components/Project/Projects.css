@@ -1,0 +1,182 @@
+#projects{
+    margin: 0 auto;
+    min-height: calc(100vh - 4rem);
+    width: 100%;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+   
+
+}
+
+.projectTitle{
+    margin: 1rem 0;
+    font-size: 3rem;
+    
+}
+
+.projectDesc{
+    font-weight: 300;
+    font-size: 1rem; 
+    
+}
+
+.Projectimgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 65rem;
+    margin: 0 auto;
+
+
+}
+
+.projectimg{
+    object-fit: cover;
+    height: 20rem;
+    margin: 0.5rem;
+
+}
+
+.seemore{
+    margin:3rem auto ;
+    padding: 0.5rem 2.5rem;
+    background: aliceblue;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1rem;
+}
+
+
+.projectblocks{
+    height: fit-content;
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.projectblock{
+    height: fit-content;
+    min-height: 42rem;
+    width: 25rem;
+    margin: 1rem;
+    /* border: 1px solid yellow; */
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.projectblock:hover{
+    border: 1px double yellow;
+}
+
+.projectblockimg{
+    object-fit: cover;
+    min-height: 13rem;
+    max-height: 13rem;
+    width: 75%;
+    margin:1rem;
+    border-radius: 1rem 1rem 0rem 0rem ;
+
+}
+
+.projectblocktitle{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color:yellow
+}
+
+.projectblocksubtitle{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.projectblockdesc{
+    font-size: 0.75rem;
+    font-weight: 200;
+    margin: 0.5rem 2rem;
+    
+}
+
+.projectblockskills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+
+}
+
+.projectblockskill{
+    border: none;
+    border-radius: 0.5rem 0rem;
+    background-color:  rgb(72, 68, 126);
+    margin: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    
+    
+}
+
+.projectblockprojects{
+    margin: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.projectblockproject{
+    margin:0.5rem;
+    background-color: blue;
+    padding:0.5rem;
+    border-radius: 0.5rem;
+
+}
+
+.projectblockproject:hover{
+    margin:0.5rem;
+    background-color: white;
+    color:black;
+    border: 1px double yellow;
+    padding:0.5rem
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:585px) {
+    .projectimg{
+        height:48vw ;
+    }
+    
+}
