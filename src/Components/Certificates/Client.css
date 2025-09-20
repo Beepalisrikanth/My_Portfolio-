@@ -85,6 +85,7 @@
     display:block;
     justify-self: center;
     align-self: center;
+    color: white;
 }
 
 .certificateblocklink:visited{
@@ -125,8 +126,17 @@
     padding: 0.75rem 3.5rem;
     margin: 2rem;
     border-radius:0.5rem ;
+}
 
+.submitbtn:hover{
+    background:aqua;
+    
+}
 
+.submitbtn:active{
+    background: blue;
+    color: black;
+    
 }
 
 .links{
