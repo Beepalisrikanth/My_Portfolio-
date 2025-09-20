@@ -134,20 +134,9 @@ const Client = () => {
                     <a href="https://drive.google.com/file/d/19lR-8uH0Y2qjpwPUz5LN0MVtPKaD-dgf/view?usp=sharing" className='certificateblocklink' target="_blank" rel="noopener noreferrer">View Certificate</a>
                 </div>
             </div>
-            
-
-            
-
         </div>
 
-        {/* <div className='clientImgs'>
-            <img src={walmart} alt='walmart' className='clientImg'/>
-            <img src={adobe} alt='adobe' className='clientImg'/>
-            <img src={microsoft} alt='microsoft' className='clientImg'/>
-            <img src={facebook} alt='facebook' className='clientImg'/>
-        </div> */}
-
-            
+           
         <div id='Contacts'>
             <h1 className='ContactpageTitle'>Contact me</h1>
             <span className='contactDesc'>please fill out the form below to discuss any work opportunities.</span>
@@ -158,11 +147,18 @@ const Client = () => {
                 <button className='submitbtn' type="submit" value="send">submit</button>
 
                 <div className='links'>
-                    <img src={fbicon} alt="facebook " className="link"></img>
-                    <img src={ticon} alt="twitter " className="link"></img>
-                    <img src={yticon} alt="youtube " className="link"></img>
-                    <img src={instaicon} alt="instagram " className="link"></img>
-                    
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                        <img src={fbicon} alt="facebook " className="link"></img>
+                    </a>
+                    <a href="https://x.com/BeepaliSrikanth" target="_blank" rel="noopener noreferrer">
+                        <img src={ticon} alt="twitter " className="link"></img>
+                    </a>
+                    <a href="https://www.youtube.com/@beepalisrikanth8854" target="_blank" rel="noopener noreferrer">
+                        <img src={yticon} alt="youtube " className="link"></img>
+                    </a>
+                    <a href="https://www.instagram.com/srikanthsrikanth5553/" target="_blank" rel="noopener noreferrer">
+                        <img src={instaicon} alt="instagram " className="link"></img>
+                    </a>
                 </div>
             </form>
         </div>

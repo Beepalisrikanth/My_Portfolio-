@@ -13,7 +13,7 @@ const NavBar = () => {
         <div className="desktopMemu">
             <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500}  className="desktopMenuListItm">Home</Link>
             <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-100} duration={500}  className="desktopMenuListItm">About</Link>
-            <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-100} duration={500}  className="desktopMenuListItm">Portfoilo</Link>
+            <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-100} duration={500}  className="desktopMenuListItm">Projects</Link>
             <Link activeClass='active' to='clients' spy={true} smooth={true} offset={-100} duration={500}  className="desktopMenuListItm">Certificates</Link>
         </div>
         <button className="desktopMenuBtn" onClick={()=>{
@@ -28,7 +28,7 @@ const NavBar = () => {
         <div className="navMemu" style={{display: showMenu? 'flex':'none'}}>
             <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500}  className="ListItm" onClick={()=>setShowMenu(false)}>Home</Link>
             <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-100} duration={500}  className="ListItm" onClick={()=>setShowMenu(false)}>About</Link>
-            <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-100} duration={500}  className="ListItm" onClick={()=>setShowMenu(false)}>Portfoilo</Link>
+            <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-100} duration={500}  className="ListItm" onClick={()=>setShowMenu(false)}>Projects</Link>
             <Link activeClass='active' to='clients' spy={true} smooth={true} offset={-100} duration={500}  className="ListItm" onClick={()=>setShowMenu(false)}>Certificates</Link>
             <Link activeClass='active' to='Contacts' spy={true} smooth={true} offset={-200} duration={500}  className="ListItm" onClick={()=>setShowMenu(false)}>Contact me</Link>
             

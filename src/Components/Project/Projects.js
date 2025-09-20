@@ -100,7 +100,7 @@ const Projects = () => {
           </div>
         </div>
         
-        <div className='projectblock'>
+        {/* <div className='projectblock'>
           <img src={p1} alt=" " className='projectblockimg'></img>
           <p className='projectblocktitle'>Felxi Pose </p>
           <p className='projectblocksubtitle'>Smart Motion Tracking with Real-Time PoseNet ai</p>
@@ -120,22 +120,13 @@ const Projects = () => {
             <span className='projectblockproject'>Live Demo</span>
           </div>
         </div>
-        
+         */}
 
 
       </div>
 
 
-        {/* <div className='Projectimgs'>
-          
-            <img src={p1} alt=" " className='projectimg'></img>
-            <img src={p2} alt=" " className='projectimg'></img>
-            <img src={p3} alt=" " className='projectimg'></img>
-            <img src={p4} alt=" " className='projectimg'></img>
-            <img src={p5} alt=" " className='projectimg'></img>
-            <img src={p6} alt=" " className='projectimg'></img>
-            
-        </div> */}
+        
         <button className='seemore'>See More</button>
     </section>
   )
