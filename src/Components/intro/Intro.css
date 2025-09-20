@@ -94,6 +94,19 @@
 }
 
 
+.introrole::after {
+      content: "Web Developer";
+      animation: role 20s infinite; /* 7 days × 5s each */
+    }
+
+    @keyframes role {
+      0%   { content: "Web Developer"; }
+      20% { content: "Frontend Developer"; }
+      40% { content: "Full Stack Developer"; }
+      60% { content: "Backend Developer"; }
+      80% { content: "React Developer"; }
+      100% { content: "Web Developer"; } /* loop back */
+    }
 
 
 

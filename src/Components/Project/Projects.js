@@ -13,7 +13,7 @@ const Projects = () => {
     <section id="projects">
 
       <h2 className='projectTitle'>My Projects</h2>
-      <span className="projectDesc">i take a paying aattention to the smallest detauls ans dnd fasknaf f fnflad vlma lwrmlambl</span>
+      <span className="projectDesc">Developed multiple projects applying concepts of web development, databases, and emerging tech. Demonstrates practical skills, creativity, and the ability to learn and adapt quickly</span>
       <div className='projectblocks'>
 
         <div className='projectblock'>
