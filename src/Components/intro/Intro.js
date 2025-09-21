@@ -18,7 +18,7 @@ const Intro = () => {
             <p className='intropara'>I am a skilled web designer with experience in creating<br></br> visually and user friendly websites;</p>
 
             <div className='btnlinks'>  
-              <a href="https://drive.google.com/file/d/1pSE4jjaxMoWYYqAzD9yzn8rv_KQg4ziz/view?usp=sharing" className='alink' target="_blank" rel="noopener noreferrer" ><img src={download} alt="github" className='aimg'></img><span className='atext'>Resume</span></a>
+              <a href="https://drive.google.com/file/d/1N4E7NekbIqxNe_XsD7vEdad6i0xgD4or/view?usp=sharing" className='alink' target="_blank" rel="noopener noreferrer" ><img src={download} alt="resume" className='aimg'></img><span className='atext'>Resume</span></a>
               <a href="https://www.linkedin.com/in/beepali-srikanth-bab716281/" className='alink' target="_blank" rel="noopener noreferrer" ><img src={linkedin}  alt="github" className='aimg'></img><span className='atext'>LinkedIn</span></a>
               <a href="https://github.com/Beepalisrikanth" className='alink' target="_blank" rel="noopener noreferrer" ><img src={github} alt="github" className='aimg'></img><span className='atext'>GitHub</span></a>       
               
