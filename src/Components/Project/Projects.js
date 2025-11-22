@@ -1,7 +1,7 @@
 import React from 'react'
 import './Projects.css'
 import p1 from '../../assests/felxiPose.webp';
-import p2 from '../../assests/Agrichain.png';
+import p2 from '../../assests/housie.png';
 import p3 from '../../assests/palamuru_university.webp';
 // import p4 from '../../assests/portfolio-4.png';
 // import p5 from '../../assests/portfolio-5.png';
@@ -40,22 +40,18 @@ const Projects = () => {
         
         <div className='projectblock'>
           <img src={p2} alt="project pic argichain" className='projectblockimg'></img>
-          <p className='projectblocktitle'>Argi Chain </p>
-          <p className='projectblocksubtitle'>Secure Contract Farming for Fair Trade</p>
-          <p className='projectblockdesc'>AgriChain is a digital platform that connects farmers and buyers directly for seamless crop trading. It helps farmers showcase their produce and enables buyers to access fresh products easily and transparently.</p>
+          <p className='projectblocktitle'>Housie Game</p>
+          <p className='projectblocksubtitle'>Web-Based Tambola Game with Real-Time Number Calling</p>
+          <p className='projectblockdesc'>Housie is an interactive web-based Tambola game where users can generate tickets, draw random numbers, track marked coins, and receive audio alerts during gameplay. It enhances the traditional housie experience with smooth UI, number animation, and winning notifications</p>
           <div className='projectblockskills'> 
             <span className='projectblockskill'> HTML</span>
             <span className='projectblockskill'> CSS</span>
             <span className='projectblockskill'> JavaScript</span>
-            <span className='projectblockskill'> React.js</span>
-            <span className='projectblockskill'> Node.js</span>
-            <span className='projectblockskill'> Express.js</span>
-            <span className='projectblockskill'> MongoDB.js</span>
           </div>
           <div className='projectblockprojects'>
-            <span className='projectblockproject'>Documation</span>
-            <span className='projectblockproject'>View Code</span>
-            <span className='projectblockproject'>Live Demo</span>
+            <a href='https://github.com/Beepalisrikanth/Housie_web_based_game_srikanth?tab=readme-ov-file#-readmemd' className='projectblockproject' target="_blank" rel="noopener noreferrer">Documation</a>
+            <a href="https://github.com/Beepalisrikanth/Housie_web_based_game_srikanth?tab=readme-ov-file" className='projectblockproject'target="_blank" rel="noopener noreferrer">View Code</a>
+            <a href="https://housie-web-based-game-by-srikanth.onrender.com" className='projectblockproject' target="_blank" rel="noopener noreferrer">Live Demo</a>
           </div>
         </div>
         
