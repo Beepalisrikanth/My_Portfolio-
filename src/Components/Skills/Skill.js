@@ -5,7 +5,7 @@ const Skill = () => {
   return (
     <section id="skills">
         <span className='skillTitle'> What I do </span>
-        <span className='skiilDescrib'>I am a skilled and passionate web designer with experience in creating visually appealling and user-friendly websites. I have a strong understanding of design and a keen eye fo rdetail. i am proficient in html, css , and javaScript,as well as design software such as adobe photoshop and illustrator. </span>
+        <span className='skiilDescrib'>I am a skilled and passionate web designer with experience in creating visually appealling and user-friendly websites. I have a strong understanding of design and a keen eye for detail. i am proficient in html, css , and javaScript, as well as design software such as adobe photoshop and illustrator. </span>
 
         <div className='skillcards'>
             <div className='skillcard'>
@@ -49,14 +49,14 @@ const Skill = () => {
                 </div>
             </div>
 
-            <div className='skillcard'>
+            {/* <div className='skillcard'>
                 <h1 className='categories'>Programming Languages</h1>
                 <div className='subskills'>
                     <span className='subskill'> Python</span>
                     <span className='subskill'> javaScript</span>
                     <span className='subskill'> c (basics)</span>
                 </div>
-            </div>
+            </div> */}
 
 
 
