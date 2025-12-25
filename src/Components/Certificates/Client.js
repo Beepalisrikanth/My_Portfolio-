@@ -97,8 +97,8 @@ const Client = () => {
 
                 <div className='certificateblock'>
                     <a href="https://www.hackerrank.com/" target="_blank" rel="noopener noreferrer"><img src={c3} alt="certificate_image" className='certificateblockimg'></img></a>
-                    <p className='certificateblocktitle'>frontend developer (react) </p>
-                    <p className='certificateblocksubtitle'>hacker Rank | 2025</p>
+                    <p className='certificateblocktitle'>Frontend developer (react) </p>
+                    <p className='certificateblocksubtitle'>Hacker Rank | 2025</p>
                     <p className='certificateblockdesc'>Successfully passed the HackerRank frontend developer (react) skill certification test, demonstrating fundamental knowledge of React. </p>
                     <div className='certificateblocklinks'>
                         <a href="https://drive.google.com/file/d/1xLahNi3k2oA-sYfNcV6uIOV9YdGyw83j/view?usp=sharing" className='certificateblocklink' target="_blank" rel="noopener noreferrer">View Certificate</a>
