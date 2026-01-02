@@ -29,6 +29,18 @@ const Skill = () => {
                 </div>
 
                 <div className='skillcard'>
+                    <h1 className='categories'>Frontend Development</h1>
+                    <div className='subskills'>
+                        <span className='subskill'>Node.js</span>
+                        <span className='subskill'>Express</span>
+                        <span className='subskill'>RESTful APIs</span>
+                        <span className='subskill'>JWT Authentication</span>
+                        <span className='subskill'>MVC</span>
+                        <span className='subskill'>CRUD</span>
+                    </div>
+                </div>
+
+                <div className='skillcard'>
                     <h1 className='categories'>Databases</h1>
                     <div className='subskills'>
                         <span className='subskill'> MySQL</span>
