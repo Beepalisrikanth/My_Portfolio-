@@ -29,7 +29,7 @@ const Skill = () => {
                 </div>
 
                 <div className='skillcard'>
-                    <h1 className='categories'>Frontend Development</h1>
+                    <h1 className='categories'>Backend Development</h1>
                     <div className='subskills'>
                         <span className='subskill'>Node.js</span>
                         <span className='subskill'>Express</span>
