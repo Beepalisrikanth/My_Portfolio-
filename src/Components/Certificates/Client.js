@@ -18,6 +18,7 @@ import fbicon from '../../assests/facebook-icon.png'
 import ticon from '../../assests/twitter.png'
 import yticon from '../../assests/youtube.png'
 import instaicon from '../../assests/instagram.png'
+import whatsappicon from '../../assests/whatsapp_logo.png'
 
 import emailjs from '@emailjs/browser';
 
@@ -168,6 +169,9 @@ const Client = () => {
                         </a>
                         <a href="https://www.instagram.com/srikanthsrikanth5553/" target="_blank" rel="noopener noreferrer">
                             <img src={instaicon} alt="instagram " className="link"></img>
+                        </a>
+                        <a href="https://web.whatsapp.com/send?phone=919502993964" target="_blank" rel="noopener noreferrer">
+                            <img src={whatsappicon} alt="instagram " className="link"></img>
                         </a>
                     </div>
                 </form>

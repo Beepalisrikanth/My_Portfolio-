@@ -4,7 +4,7 @@ import p1 from '../../assests/felxiPose.webp';
 import p2 from '../../assests/housie.png';
 import p3 from '../../assests/palamuru_university.webp';
 import p4 from '../../assests/password_generator.png';
-// import p5 from '../../assests/portfolio-5.png';
+import p5 from '../../assests/Agrichain.png';
 // import p6 from '../../assests/portfolio-6.png';
 
 
@@ -87,7 +87,27 @@ const Projects = () => {
             <a href="https://password-generated-by-srikanth-gv30.onrender.com" className='projectblockproject' target="_blank" rel="noopener noreferrer" > Live Demo </a>
           </div>
         </div>
-        
+
+        <div className='projectblock'>
+          <img src={p5} alt="Agrichain project" className='projectblockimg' />
+          <p className='projectblocktitle'>AgriChain</p>
+          <p className='projectblocksubtitle'>MERN Stack Agriculture Supply Chain Platform</p>
+          <p className='projectblockdesc'>A full-stack agriculture marketplace built using the MERN stack where farmers can post produce, buyers can place orders, and admins can manage users and products. Features include authentication, role-based access, image uploads, contract PDF generation, Stripe test payments, and an interactive admin dashboard.</p>
+          <div className='projectblockskills'>
+            <span className='projectblockskill'>MongoDB</span>
+            <span className='projectblockskill'>Express.js</span>
+            <span className='projectblockskill'>React</span>
+            <span className='projectblockskill'>Node.js</span>
+            <span className='projectblockskill'>Stripe</span>
+          </div>
+          <div className='projectblockprojects'>
+            <a href='https://drive.google.com/file/d/18W3XUABROk7xAUf0SI5AbVlEFsblo6hl/view?usp=sharing' className='projectblockproject' target="_blank" rel="noopener noreferrer">Documentation</a>
+            <a href="https://github.com/Beepalisrikanth/AgriChain-the-smart-farming-'" className='projectblockproject' target="_blank" rel="noopener noreferrer" >View Code</a>
+            <a href="https://drive.google.com/file/d/1WZzG_KSVS7lq0NOEVra3KERz6vlFte1Q/view?usp=sharing" className='projectblockproject' target="_blank" rel="noopener noreferrer" > Live Demo </a>
+          </div>
+        </div>
+
+
       </div>
       <button className='seemore'>See More</button>
     </section>
