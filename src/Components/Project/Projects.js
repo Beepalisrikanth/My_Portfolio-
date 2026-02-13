@@ -102,8 +102,8 @@ const Projects = () => {
           </div>
           <div className='projectblockprojects'>
             <a href='https://drive.google.com/file/d/18W3XUABROk7xAUf0SI5AbVlEFsblo6hl/view?usp=sharing' className='projectblockproject' target="_blank" rel="noopener noreferrer">Documentation</a>
-            <a href="https://github.com/Beepalisrikanth/AgriChain-the-smart-farming-'" className='projectblockproject' target="_blank" rel="noopener noreferrer" >View Code</a>
-            <a href="https://drive.google.com/file/d/1WZzG_KSVS7lq0NOEVra3KERz6vlFte1Q/view?usp=sharing" className='projectblockproject' target="_blank" rel="noopener noreferrer" > Live Demo </a>
+            <a href="https://github.com/Beepalisrikanth/AgriChain-the-smart-farming-" className='projectblockproject' target="_blank" rel="noopener noreferrer" >View Code</a>
+            <a href="https://drive.google.com/drive/folders/1HYDHiXoVVMrj2yimjqoAfkm1CRO3aCOe?usp=sharing" className='projectblockproject' target="_blank" rel="noopener noreferrer" > Live Demo </a>
           </div>
         </div>
 
