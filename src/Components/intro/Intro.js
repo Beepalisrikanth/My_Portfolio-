@@ -1,6 +1,6 @@
 import React from 'react'
 import './Intro.css';
-import sribg from '../../assests/sribg.png'
+import sribg from "../../assests/profile_pic_coat_half.png"
 import download from '../../assests/download.png'
 import github from '../../assests/github.png'
 import linkedin from '../../assests/linkedin.png'
