@@ -5,8 +5,10 @@ import p2 from '../../assests/housie.png';
 import p3 from '../../assests/palamuru_university.webp';
 import p4 from '../../assests/password_generator.png';
 import p5 from '../../assests/Agrichain.png';
-// import p6 from '../../assests/portfolio-6.png';
-
+import p6 from '../../assests/QuizGame.png';
+import p7 from '../../assests/hangMan.png';
+// import p6 from '../../assests/QuizGame.png';
+// import p6 from '../../assests/QuizGame.png';
 
 const Projects = () => {
   return (
@@ -34,6 +36,25 @@ const Projects = () => {
             <a href='https://drive.google.com/file/d/1-8VUXsGRNVreb5M8b-UIlPLIbYZJcuq6/view?usp=sharing' className='projectblockproject' target="_blank" rel="noopener noreferrer">Documation</a>
             <a href="https://github.com/Beepalisrikanth/FlexiPose-Smart-Motion-Tracking-with-Real-Time-PoseNet-AI-" className='projectblockproject' target="_blank" rel="noopener noreferrer">View Code</a>
             <a href=" https://flexipose.onrender.com/" className='projectblockproject' target="_blank" rel="noopener noreferrer">Live Demo</a>
+          </div>
+        </div>
+
+        <div className='projectblock'>
+          <img src={p6} alt="Quiz Application Project" className='projectblockimg'></img>
+          <p className='projectblocktitle'>Quiz Application</p>
+          <p className='projectblocksubtitle'>Interactive Quiz Web App with Score Tracking </p>
+          <p className='projectblockdesc'> A dynamic quiz application that allows users to answer multiple-choice questions with real-time feedback. It includes score tracking, question navigation, timer functionality, and a responsive UI for smooth user experience. </p>
+          <div className='projectblockskills'>
+            <span className='projectblockskill'>HTML</span>
+            <span className='projectblockskill'>CSS</span>
+            <span className='projectblockskill'>JavaScript</span>
+            <span className='projectblockskill'>React.js</span>
+            <span className='projectblockskill'>TypeScript</span>
+          </div>
+          <div className='projectblockprojects'>
+            {/* <a href='https://drive.google.com/file/d/1-8VUXsGRNVreb5M8b-UIlPLIbYZJcuq6/view?usp=sharing' className='projectblockproject' target="_blank" rel="noopener noreferrer">Documation</a> */}
+            <a href="https://github.com/Beepalisrikanth/QUIZ_APPLICATION" className='projectblockproject' target="_blank" rel="noopener noreferrer">View Code</a>
+            <a href="https://srikanth-quiz-application.onrender.com" className='projectblockproject' target="_blank" rel="noopener noreferrer">Live Demo</a>
           </div>
         </div>
 
@@ -107,7 +128,24 @@ const Projects = () => {
           </div>
         </div>
 
-
+        <div className='projectblock'>
+          <img src={p7} alt="Hangman Game Project" className='projectblockimg'></img>
+          <p className='projectblocktitle'>Hangman Game</p>
+          <p className='projectblocksubtitle'> Classic Word Guessing Game with Interactive UI</p>
+          <p className='projectblockdesc'>An interactive Hangman game where users guess letters to reveal a hidden word. The game provides real-time feedback, tracks incorrect attempts with visual progression, and includes win/lose conditions for an engaging experience.</p>
+          <div className='projectblockskills'>
+            <span className='projectblockskill'>HTML</span>
+            <span className='projectblockskill'>CSS</span>
+            <span className='projectblockskill'>JavaScript</span>
+            <span className='projectblockskill'>React.js</span>
+            <span className='projectblockskill'>TypeScript</span>
+          </div>
+          <div className='projectblockprojects'>
+            {/* <a href='https://drive.google.com/file/d/18W3XUABROk7xAUf0SI5AbVlEFsblo6hl/view?usp=sharing' className='projectblockproject' target="_blank" rel="noopener noreferrer">Documentation</a> */}
+            <a href="https://github.com/Beepalisrikanth/HANGMAN_GAME" className='projectblockproject' target="_blank" rel="noopener noreferrer" >View Code</a>
+            <a href="https://srikanth-hangman-game.onrender.com" className='projectblockproject' target="_blank" rel="noopener noreferrer" > Live Demo </a>
+          </div>
+        </div>
       </div>
       <button className='seemore'>See More</button>
     </section>
