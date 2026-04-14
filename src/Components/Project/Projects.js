@@ -7,6 +7,7 @@ import p4 from '../../assests/password_generator.png';
 import p5 from '../../assests/Agrichain.png';
 import p6 from '../../assests/QuizGame.png';
 import p7 from '../../assests/hangMan.png';
+
 // import p6 from '../../assests/QuizGame.png';
 // import p6 from '../../assests/QuizGame.png';
 
@@ -18,11 +19,14 @@ const Projects = () => {
       <span className="projectDesc">Developed multiple projects applying concepts of web development, databases, and emerging tech. Demonstrates practical skills, creativity, and the ability to learn and adapt quickly</span>
       <div className='projectblocks'>
 
+        
         <div className='projectblock'>
           <img src={p1} alt="project pic flexi pose " className='projectblockimg'></img>
           <p className='projectblocktitle'>Flexi Pose </p>
-          <p className='projectblocksubtitle'>Smart Motion Tracking with Real-Time PoseNet ai</p>
-          <p className='projectblockdesc'>Flexi Pose is an AI-based system that detects posture and activities like sitting, standing, walking, and sleeping in real time. It helps users monitor physical behavior and maintain a healthy lifestyle using PoseNet and TensorFlow.js.</p>
+          <p className='projectblocksubtitle'>Flexi Pose: Smart Motion Tracking with Real-Time PoseNet ai</p>
+          <p className='projectblockdesc'>Built a browser-based real-time AI system that detects human posture and activities (sitting, standing, walking, sleeping) using webcam input.</p>
+          <p className='projectblockdesc'>Features include live pose estimation, activity classification, smooth animations, and responsive design for both mobile and desktop.</p>
+          <p className='projectblockdesc'>Challenges overcome: Optimized frame processing for consistent 30+ FPS performance across devices.</p>
           <div className='projectblockskills'>
             <span className='projectblockskill'> HTML</span>
             <span className='projectblockskill'> CSS</span>
@@ -33,79 +37,9 @@ const Projects = () => {
             <span className='projectblockskill'> ml5.js</span>
           </div>
           <div className='projectblockprojects'>
-            <a href='https://drive.google.com/file/d/1-8VUXsGRNVreb5M8b-UIlPLIbYZJcuq6/view?usp=sharing' className='projectblockproject' target="_blank" rel="noopener noreferrer">Documation</a>
+            <a href='https://drive.google.com/file/d/1-8VUXsGRNVreb5M8b-UIlPLIbYZJcuq6/view?usp=sharing' className='projectblockproject' target="_blank" rel="noopener noreferrer">Documentation</a>
             <a href="https://github.com/Beepalisrikanth/FlexiPose-Smart-Motion-Tracking-with-Real-Time-PoseNet-AI-" className='projectblockproject' target="_blank" rel="noopener noreferrer">View Code</a>
             <a href=" https://flexipose.onrender.com/" className='projectblockproject' target="_blank" rel="noopener noreferrer">Live Demo</a>
-          </div>
-        </div>
-
-        <div className='projectblock'>
-          <img src={p6} alt="Quiz Application Project" className='projectblockimg'></img>
-          <p className='projectblocktitle'>Quiz Application</p>
-          <p className='projectblocksubtitle'>Interactive Quiz Web App with Score Tracking </p>
-          <p className='projectblockdesc'> A dynamic quiz application that allows users to answer multiple-choice questions with real-time feedback. It includes score tracking, question navigation, timer functionality, and a responsive UI for smooth user experience. </p>
-          <div className='projectblockskills'>
-            <span className='projectblockskill'>HTML</span>
-            <span className='projectblockskill'>CSS</span>
-            <span className='projectblockskill'>JavaScript</span>
-            <span className='projectblockskill'>React.js</span>
-            <span className='projectblockskill'>TypeScript</span>
-          </div>
-          <div className='projectblockprojects'>
-            {/* <a href='https://drive.google.com/file/d/1-8VUXsGRNVreb5M8b-UIlPLIbYZJcuq6/view?usp=sharing' className='projectblockproject' target="_blank" rel="noopener noreferrer">Documation</a> */}
-            <a href="https://github.com/Beepalisrikanth/QUIZ_APPLICATION" className='projectblockproject' target="_blank" rel="noopener noreferrer">View Code</a>
-            <a href="https://srikanth-quiz-application.onrender.com" className='projectblockproject' target="_blank" rel="noopener noreferrer">Live Demo</a>
-          </div>
-        </div>
-
-        <div className='projectblock'>
-          <img src={p2} alt="project pic argichain" className='projectblockimg'></img>
-          <p className='projectblocktitle'>Housie Game</p>
-          <p className='projectblocksubtitle'>Web-Based Tambola Game with Real-Time Number Calling</p>
-          <p className='projectblockdesc'>Housie is an interactive web-based Tambola game where users can generate tickets, draw random numbers, track marked coins, and receive audio alerts during gameplay. It enhances the traditional housie experience with smooth UI, number animation, and winning notifications</p>
-          <div className='projectblockskills'>
-            <span className='projectblockskill'> HTML</span>
-            <span className='projectblockskill'> CSS</span>
-            <span className='projectblockskill'> JavaScript</span>
-          </div>
-          <div className='projectblockprojects'>
-            <a href='https://github.com/Beepalisrikanth/Housie_web_based_game_srikanth?tab=readme-ov-file#-readmemd' className='projectblockproject' target="_blank" rel="noopener noreferrer">Documation</a>
-            <a href="https://github.com/Beepalisrikanth/Housie_web_based_game_srikanth?tab=readme-ov-file" className='projectblockproject' target="_blank" rel="noopener noreferrer">View Code</a>
-            <a href="https://housie-web-based-game-by-srikanth.onrender.com" className='projectblockproject' target="_blank" rel="noopener noreferrer">Live Demo</a>
-          </div>
-        </div>
-
-        <div className='projectblock'>
-          <img src={p3} alt="university website " className='projectblockimg'></img>
-          <p className='projectblocktitle'>University Website Clone</p>
-          <p className='projectblocksubtitle'>Responsive Multi-Page Educational Portal</p>
-          <p className='projectblockdesc'> A basic clone of the Palamuru University website built with HTML, CSS, and JavaScript. It replicates the structure and design of a real university site, including navigation menus, announcements, events, and departmental sections for practice in frontend development.</p>
-          <div className='projectblockskills'>
-            <span className='projectblockskill'> HTML</span>
-            <span className='projectblockskill'> CSS</span>
-            <span className='projectblockskill'> JavaScript</span>
-          </div>
-          <div className='projectblockprojects'>
-            {/* <span className='projectblockproject'>Documation</span> */}
-            <span className='projectblockproject'>View Code</span>
-            <span className='projectblockproject'>Live Demo</span>
-          </div>
-        </div>
-
-        <div className='projectblock'>
-          <img src={p4} alt="Password Generator Project" className='projectblockimg'></img>
-          <p className='projectblocktitle'>Password Generator </p>
-          <p className='projectblocksubtitle'>Strong & Secure Password Generator Web App</p>
-          <p className='projectblockdesc'> A fast and customizable password generator that allows users to generate secure passwords with options like upper/lowercase letters, numbers, symbols, and adjustable length. It includes copy-to-clipboard features, strength indicators, and modern UI for better user experience.</p>
-          <div className='projectblockskills'>
-            <span className='projectblockskill'> HTML</span>
-            <span className='projectblockskill'> CSS</span>
-            <span className='projectblockskill'> JavaScript</span>
-          </div>
-          <div className='projectblockprojects'>
-            <a href='https://github.com/Beepalisrikanth/Password_Generated_by_srikanth?tab=readme-ov-file' className='projectblockproject' target="_blank" rel="noopener noreferrer">Documentation</a>
-            <a href="https://github.com/Beepalisrikanth/Password_Generated_by_srikanth" className='projectblockproject' target="_blank" rel="noopener noreferrer" >View Code</a>
-            <a href="https://password-generated-by-srikanth-gv30.onrender.com" className='projectblockproject' target="_blank" rel="noopener noreferrer" > Live Demo </a>
           </div>
         </div>
 
@@ -113,7 +47,9 @@ const Projects = () => {
           <img src={p5} alt="Agrichain project" className='projectblockimg' />
           <p className='projectblocktitle'>AgriChain</p>
           <p className='projectblocksubtitle'>MERN Stack Agriculture Supply Chain Platform</p>
-          <p className='projectblockdesc'>A full-stack agriculture marketplace built using the MERN stack where farmers can post produce, buyers can place orders, and admins can manage users and products. Features include authentication, role-based access, image uploads, contract PDF generation, Stripe test payments, and an interactive admin dashboard.</p>
+          <p className='projectblockdesc'>Developed a complete end-to-end platform connecting farmers and buyers. Farmers can list produce with images; buyers can browse, place orders, and complete test payments. Admins manage users, products, and view dashboard analytics.</p>
+          <p className='projectblockdesc'>Features: JWT authentication with role-based access (Farmer/Buyer/Admin), image uploads, contract PDF generation, and Stripe test payments.</p>
+          {/* <p className='projectblockdesc'></p> */}
           <div className='projectblockskills'>
             <span className='projectblockskill'>MongoDB</span>
             <span className='projectblockskill'>Express.js</span>
@@ -129,10 +65,33 @@ const Projects = () => {
         </div>
 
         <div className='projectblock'>
+          <img src={p6} alt="Quiz Application Project" className='projectblockimg'></img>
+          <p className='projectblocktitle'>Quiz Application</p>
+          <p className='projectblocksubtitle'>Interactive Quiz Web App with Score Tracking </p>
+          <p className='projectblockdesc'>Built a dynamic quiz application featuring multiple-choice questions, timer, score tracking, instant feedback, and smooth question navigation using modern React patterns and TypeScript.</p>
+          {/* <p className='projectblockdesc'></p> */}
+          {/* <p className='projectblockdesc'></p> */}
+          <div className='projectblockskills'>
+            <span className='projectblockskill'>HTML</span>
+            <span className='projectblockskill'>CSS</span>
+            <span className='projectblockskill'>JavaScript</span>
+            <span className='projectblockskill'>React.js</span>
+            <span className='projectblockskill'>TypeScript</span>
+          </div>
+          <div className='projectblockprojects'>
+            {/* <a href='https://drive.google.com/file/d/1-8VUXsGRNVreb5M8b-UIlPLIbYZJcuq6/view?usp=sharing' className='projectblockproject' target="_blank" rel="noopener noreferrer">Documentation</a> */}
+            <a href="https://github.com/Beepalisrikanth/QUIZ_APPLICATION" className='projectblockproject' target="_blank" rel="noopener noreferrer">View Code</a>
+            <a href="https://srikanth-quiz-application.onrender.com" className='projectblockproject' target="_blank" rel="noopener noreferrer">Live Demo</a>
+          </div>
+        </div>
+
+        <div className='projectblock'>
           <img src={p7} alt="Hangman Game Project" className='projectblockimg'></img>
           <p className='projectblocktitle'>Hangman Game</p>
           <p className='projectblocksubtitle'> Classic Word Guessing Game with Interactive UI</p>
-          <p className='projectblockdesc'>An interactive Hangman game where users guess letters to reveal a hidden word. The game provides real-time feedback, tracks incorrect attempts with visual progression, and includes win/lose conditions for an engaging experience.</p>
+          <p className='projectblockdesc'>Developed a classic Hangman game with real-time letter guessing, visual progression for incorrect attempts, win/lose conditions, and engaging UI using React state management.</p>
+          {/* <p className='projectblockdesc'></p> */}
+          {/* <p className='projectblockdesc'></p> */}
           <div className='projectblockskills'>
             <span className='projectblockskill'>HTML</span>
             <span className='projectblockskill'>CSS</span>
@@ -146,6 +105,46 @@ const Projects = () => {
             <a href="https://srikanth-hangman-game.onrender.com" className='projectblockproject' target="_blank" rel="noopener noreferrer" > Live Demo </a>
           </div>
         </div>
+
+        <div className='projectblock'>
+          <img src={p2} alt="project pic argichain" className='projectblockimg'></img>
+          <p className='projectblocktitle'>Housie Game</p>
+          <p className='projectblocksubtitle'>Web-Based Tambola Game with Real-Time Number Calling</p>
+          <p className='projectblockdesc'>Created an interactive digital Tambola (Housie) game with ticket generation, random number calling, coin tracking, audio alerts, and winning notifications.</p>
+          {/* <p className='projectblockdesc'></p>
+          <p className='projectblockdesc'></p> */}
+          <div className='projectblockskills'>
+            <span className='projectblockskill'> HTML</span>
+            <span className='projectblockskill'> CSS</span>
+            <span className='projectblockskill'> JavaScript</span>
+          </div>
+          <div className='projectblockprojects'>
+            <a href='https://github.com/Beepalisrikanth/Housie_web_based_game_srikanth?tab=readme-ov-file#-readmemd' className='projectblockproject' target="_blank" rel="noopener noreferrer">Documentation</a>
+            <a href="https://github.com/Beepalisrikanth/Housie_web_based_game_srikanth?tab=readme-ov-file" className='projectblockproject' target="_blank" rel="noopener noreferrer">View Code</a>
+            <a href="https://housie-web-based-game-by-srikanth.onrender.com" className='projectblockproject' target="_blank" rel="noopener noreferrer">Live Demo</a>
+          </div>
+        </div>
+
+
+        <div className='projectblock'>
+          <img src={p4} alt="Password Generator Project" className='projectblockimg'></img>
+          <p className='projectblocktitle'>Password Generator </p>
+          <p className='projectblocksubtitle'>Strong & Secure Password Generator Web App</p>
+          <p className='projectblockdesc'>Fast and customizable password generator with options for length, character types, strength indicator, and one-click copy functionality.</p>
+          {/* <p className='projectblockdesc'></p> */}
+          {/* <p className='projectblockdesc'></p> */}
+          <div className='projectblockskills'>
+            <span className='projectblockskill'> HTML</span>
+            <span className='projectblockskill'> CSS</span>
+            <span className='projectblockskill'> JavaScript</span>
+          </div>
+          <div className='projectblockprojects'>
+            <a href='https://github.com/Beepalisrikanth/Password_Generated_by_srikanth?tab=readme-ov-file' className='projectblockproject' target="_blank" rel="noopener noreferrer">Documentation</a>
+            <a href="https://github.com/Beepalisrikanth/Password_Generated_by_srikanth" className='projectblockproject' target="_blank" rel="noopener noreferrer" >View Code</a>
+            <a href="https://password-generated-by-srikanth-gv30.onrender.com" className='projectblockproject' target="_blank" rel="noopener noreferrer" > Live Demo </a>
+          </div>
+        </div>
+
       </div>
       <button className='seemore'>See More</button>
     </section>

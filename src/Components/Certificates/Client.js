@@ -86,7 +86,7 @@ const Client = () => {
                 </div>
 
                 <div className='certificateblock'>
-                    <a href="https://novitechrd.com/" target="_blank" rel="noopener noreferrer"><img src={c8} alt="novitech" className='certificateblockimg'/></a>
+                    <a href="https://novitechrd.com/" target="_blank" rel="noopener noreferrer"><img src={c8} alt="novitech" className='certificateblockimg' /></a>
                     <p className='certificateblocktitle'>Development to Deployment Bootcamp</p>
                     <p className='certificateblocksubtitle'>NoviTech R&D Pvt. Ltd. | Bootcamp | 2025</p>
                     <p className='certificateblockdesc'>Successfully completed a 2-hour intensive bootcamp on Development to Deployment, gaining practical understanding of application development workflows, deployment processes, and real-world software delivery practices.</p>
@@ -109,7 +109,7 @@ const Client = () => {
                 <div className='certificateblock'>
                     <a href="https://www.hackerrank.com/" target="_blank" rel="noopener noreferrer"><img src={c3} alt="certificate_image" className='certificateblockimg'></img></a>
                     <p className='certificateblocktitle'>CSS Basics</p>
-                    <p className='certificateblocksubtitle'>hanker Rank | 2025</p>
+                    <p className='certificateblocksubtitle'>HackerRank | 2025</p>
                     <p className='certificateblockdesc'>Successfully passed the HackerRank CSS (Basic) skill certification test, demonstrating fundamental knowledge of Cascading Style Sheets.</p>
                     <div className='certificateblocklinks'>
                         <a href="https://drive.google.com/file/d/1v1rJZZWzNvX_vZCCSYX7F50NtAEicYdO/view?usp=sharing" className='certificateblocklink' target="_blank" rel="noopener noreferrer">View Certificate</a>

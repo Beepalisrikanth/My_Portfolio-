@@ -96,15 +96,13 @@
 
 .introrole::after {
       content: "Web Developer";
-      animation: role 15s infinite; /* 7 days × 5s each */
+      animation: role 5s infinite; /* 7 days × 5s each */
     }
 
     @keyframes role {
       0%   { content: "Web Developer"; }
-      20% { content: "Frontend Developer"; }
-      40% { content: "Full Stack Developer"; }
-      60% { content: "Backend Developer"; }
-      80% { content: "MERN stack Developer"; }
+      30% { content: "Full Stack Developer"; }
+      60% { content: "MERN stack Developer"; }
       100% { content: "Web Developer"; } /* loop back */
     }
 

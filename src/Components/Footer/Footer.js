@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = () => {
   return (
     <footer className='footer'>
-        Copyright &#169; 2025 beepali srikanth. ALl rights Received.
+      Copyright © 2026 Beepali Srikanth. All rights reserved.
 
     </footer>
   )

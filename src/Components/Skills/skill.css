@@ -36,6 +36,11 @@
     justify-content: center;
 }
 
+img{
+    height: 20px;
+    margin: 0px 10px 0px 0px;
+}
+
 .skillcard{
     border: 1px solid yellow;
     padding:0.5rem 1rem;
@@ -65,9 +70,35 @@
     border: 1px solid white;
     margin: 0.5rem;
     font-size: 1rem;
+    display: flex;
     padding: 0.5rem 1rem;
     border-radius: 1.5rem;
     background-color: rgb(72, 68, 126);
+}
+
+.subskill:hover{
+    animation: rotate 1s;
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+        background-color: rgb(24, 140, 218);
+    }
+    20%{
+        transform: rotate(5deg);
+    }
+    40%{
+        transform: rotate(-5deg);
+    }
+    60%{
+        transform: rotate(5deg);
+    }
+    80%{
+        transform: rotate(-5deg);
+    }
+    100%{
+        transform: rotate(5deg);
+    }
 }
 
 

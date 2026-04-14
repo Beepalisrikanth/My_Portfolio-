@@ -15,7 +15,7 @@ const Intro = () => {
                 <span className="introname"> Beepali Srikanth </span><br></br>
                 <div className='introrole'></div>
             </span>
-            <p className='intropara'>I am a skilled web designer with experience in creating<br></br> visually and user friendly websites;</p>
+            <p className='intropara'>  I build modern, responsive web applications using the MERN stack and browser-based AI, turning ideas into real-world products — from AI systems to full-scale platforms with payments and admin dashboards.</p>
 
             <div className='btnlinks'>  
               <a href="https://drive.google.com/file/d/1y9T6N9dN_68PaFaBqpY-Y-K1-7e45eMi/view?usp=sharing" className='alink' target="_blank" rel="noopener noreferrer" ><img src={download} alt="resume" className='aimg'></img><span className='atext'>Resume</span></a>
