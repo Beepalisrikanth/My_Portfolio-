@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Projects.css'
 import p1 from '../../assests/felxiPose.webp';
 import p2 from '../../assests/housie.png';
-// import p3 from '../../assests/palamuru_university.webp';
+import p3 from '../../assests/findmytrain.png';
 import p4 from '../../assests/password_generator.png';
 import p5 from '../../assests/Agrichain.png';
 import p6 from '../../assests/QuizGame.png';
@@ -66,7 +66,7 @@ const Projects = () => {
         </div>
 
         <div className='projectblock'>
-          <img src={p2} alt="Find My Train project" className='projectblockimg'></img>
+          <img src={p3} alt="Find My Train project" className='projectblockimg'></img>
           <p className='projectblocktitle'>Find My Train</p>
           <p className='projectblocksubtitle'> Find My Train: Real-Time Train Search & Tracking Web Application </p>
           <p className='projectblockdesc'> Developed a full-stack web application that allows users to search trains, view schedules, and access real-time railway information through an intuitive interface.</p>
