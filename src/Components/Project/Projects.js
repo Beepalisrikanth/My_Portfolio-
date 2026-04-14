@@ -149,83 +149,28 @@ const Projects = () => {
 
         {viewMore && <>
 
-        <div className='projectblock'>
-          <img src={p4} alt="Password Generator Project" className='projectblockimg'></img>
-          <p className='projectblocktitle'>Password Generator </p>
-          <p className='projectblocksubtitle'>Strong & Secure Password Generator Web App</p>
-          <p className='projectblockdesc'>Fast and customizable password generator with options for length, character types, strength indicator, and one-click copy functionality.</p>
-          {/* <p className='projectblockdesc'></p> */}
-          {/* <p className='projectblockdesc'></p> */}
-          <div className='projectblockskills'>
-            <span className='projectblockskill'> HTML</span>
-            <span className='projectblockskill'> CSS</span>
-            <span className='projectblockskill'> JavaScript</span>
+          <div className='projectblock'>
+            <img src={p4} alt="Password Generator Project" className='projectblockimg'></img>
+            <p className='projectblocktitle'>Password Generator </p>
+            <p className='projectblocksubtitle'>Strong & Secure Password Generator Web App</p>
+            <p className='projectblockdesc'>Fast and customizable password generator with options for length, character types, strength indicator, and one-click copy functionality.</p>
+            {/* <p className='projectblockdesc'></p> */}
+            {/* <p className='projectblockdesc'></p> */}
+            <div className='projectblockskills'>
+              <span className='projectblockskill'> HTML</span>
+              <span className='projectblockskill'> CSS</span>
+              <span className='projectblockskill'> JavaScript</span>
+            </div>
+            <div className='projectblockprojects'>
+              <a href='https://github.com/Beepalisrikanth/Password_Generated_by_srikanth?tab=readme-ov-file' className='projectblockproject' target="_blank" rel="noopener noreferrer">Documentation</a>
+              <a href="https://github.com/Beepalisrikanth/Password_Generated_by_srikanth" className='projectblockproject' target="_blank" rel="noopener noreferrer" >View Code</a>
+              <a href="https://password-generated-by-srikanth-gv30.onrender.com" className='projectblockproject' target="_blank" rel="noopener noreferrer" > Live Demo </a>
+            </div>
           </div>
-          <div className='projectblockprojects'>
-            <a href='https://github.com/Beepalisrikanth/Password_Generated_by_srikanth?tab=readme-ov-file' className='projectblockproject' target="_blank" rel="noopener noreferrer">Documentation</a>
-            <a href="https://github.com/Beepalisrikanth/Password_Generated_by_srikanth" className='projectblockproject' target="_blank" rel="noopener noreferrer" >View Code</a>
-            <a href="https://password-generated-by-srikanth-gv30.onrender.com" className='projectblockproject' target="_blank" rel="noopener noreferrer" > Live Demo </a>
-          </div>
-        </div>
 
-            <div className='projectblock'>
-              <img src={p4} alt="Password Generator Project" className='projectblockimg'></img>
-              <p className='projectblocktitle'>Password Generator </p>
-              <p className='projectblocksubtitle'>Strong & Secure Password Generator Web App</p>
-              <p className='projectblockdesc'>Fast and customizable password generator with options for length, character types, strength indicator, and one-click copy functionality.</p>
-              {/* <p className='projectblockdesc'></p> */}
-              {/* <p className='projectblockdesc'></p> */}
-              <div className='projectblockskills'>
-                <span className='projectblockskill'> HTML</span>
-                <span className='projectblockskill'> CSS</span>
-                <span className='projectblockskill'> JavaScript</span>
-              </div>
-              <div className='projectblockprojects'>
-                <a href='https://github.com/Beepalisrikanth/Password_Generated_by_srikanth?tab=readme-ov-file' className='projectblockproject' target="_blank" rel="noopener noreferrer">Documentation</a>
-                <a href="https://github.com/Beepalisrikanth/Password_Generated_by_srikanth" className='projectblockproject' target="_blank" rel="noopener noreferrer" >View Code</a>
-                <a href="https://password-generated-by-srikanth-gv30.onrender.com" className='projectblockproject' target="_blank" rel="noopener noreferrer" > Live Demo </a>
-              </div>
-            </div>
 
-            <div className='projectblock'>
-              <img src={p4} alt="Password Generator Project" className='projectblockimg'></img>
-              <p className='projectblocktitle'>Password Generator </p>
-              <p className='projectblocksubtitle'>Strong & Secure Password Generator Web App</p>
-              <p className='projectblockdesc'>Fast and customizable password generator with options for length, character types, strength indicator, and one-click copy functionality.</p>
-              {/* <p className='projectblockdesc'></p> */}
-              {/* <p className='projectblockdesc'></p> */}
-              <div className='projectblockskills'>
-                <span className='projectblockskill'> HTML</span>
-                <span className='projectblockskill'> CSS</span>
-                <span className='projectblockskill'> JavaScript</span>
-              </div>
-              <div className='projectblockprojects'>
-                <a href='https://github.com/Beepalisrikanth/Password_Generated_by_srikanth?tab=readme-ov-file' className='projectblockproject' target="_blank" rel="noopener noreferrer">Documentation</a>
-                <a href="https://github.com/Beepalisrikanth/Password_Generated_by_srikanth" className='projectblockproject' target="_blank" rel="noopener noreferrer" >View Code</a>
-                <a href="https://password-generated-by-srikanth-gv30.onrender.com" className='projectblockproject' target="_blank" rel="noopener noreferrer" > Live Demo </a>
-              </div>
-            </div>
 
-            <div className='projectblock'>
-              <img src={p4} alt="Password Generator Project" className='projectblockimg'></img>
-              <p className='projectblocktitle'>Password Generator </p>
-              <p className='projectblocksubtitle'>Strong & Secure Password Generator Web App</p>
-              <p className='projectblockdesc'>Fast and customizable password generator with options for length, character types, strength indicator, and one-click copy functionality.</p>
-              {/* <p className='projectblockdesc'></p> */}
-              {/* <p className='projectblockdesc'></p> */}
-              <div className='projectblockskills'>
-                <span className='projectblockskill'> HTML</span>
-                <span className='projectblockskill'> CSS</span>
-                <span className='projectblockskill'> JavaScript</span>
-              </div>
-              <div className='projectblockprojects'>
-                <a href='https://github.com/Beepalisrikanth/Password_Generated_by_srikanth?tab=readme-ov-file' className='projectblockproject' target="_blank" rel="noopener noreferrer">Documentation</a>
-                <a href="https://github.com/Beepalisrikanth/Password_Generated_by_srikanth" className='projectblockproject' target="_blank" rel="noopener noreferrer" >View Code</a>
-                <a href="https://password-generated-by-srikanth-gv30.onrender.com" className='projectblockproject' target="_blank" rel="noopener noreferrer" > Live Demo </a>
-              </div>
-            </div>
-
-          </>
+        </>
 
         }
 
