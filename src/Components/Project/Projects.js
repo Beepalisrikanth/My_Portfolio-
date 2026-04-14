@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Projects.css'
 import p1 from '../../assests/felxiPose.webp';
 import p2 from '../../assests/housie.png';
-import p3 from '../../assests/palamuru_university.webp';
+// import p3 from '../../assests/palamuru_university.webp';
 import p4 from '../../assests/password_generator.png';
 import p5 from '../../assests/Agrichain.png';
 import p6 from '../../assests/QuizGame.png';
@@ -12,6 +12,7 @@ import p7 from '../../assests/hangMan.png';
 // import p6 from '../../assests/QuizGame.png';
 
 const Projects = () => {
+  const [viewMore, setViewMore] = useState(false)
   return (
     <section id="projects">
 
@@ -19,7 +20,7 @@ const Projects = () => {
       <span className="projectDesc">Developed multiple projects applying concepts of web development, databases, and emerging tech. Demonstrates practical skills, creativity, and the ability to learn and adapt quickly</span>
       <div className='projectblocks'>
 
-        
+
         <div className='projectblock'>
           <img src={p1} alt="project pic flexi pose " className='projectblockimg'></img>
           <p className='projectblocktitle'>Flexi Pose </p>
@@ -61,6 +62,27 @@ const Projects = () => {
             <a href='https://drive.google.com/file/d/18W3XUABROk7xAUf0SI5AbVlEFsblo6hl/view?usp=sharing' className='projectblockproject' target="_blank" rel="noopener noreferrer">Documentation</a>
             <a href="https://github.com/Beepalisrikanth/AgriChain-the-smart-farming-" className='projectblockproject' target="_blank" rel="noopener noreferrer" >View Code</a>
             <a href="https://drive.google.com/drive/folders/1HYDHiXoVVMrj2yimjqoAfkm1CRO3aCOe?usp=sharing" className='projectblockproject' target="_blank" rel="noopener noreferrer" > Live Demo </a>
+          </div>
+        </div>
+
+        <div className='projectblock'>
+          <img src={p2} alt="Find My Train project" className='projectblockimg'></img>
+          <p className='projectblocktitle'>Find My Train</p>
+          <p className='projectblocksubtitle'> Find My Train: Real-Time Train Search & Tracking Web Application </p>
+          <p className='projectblockdesc'> Developed a full-stack web application that allows users to search trains, view schedules, and access real-time railway information through an intuitive interface.</p>
+          <p className='projectblockdesc'> Implemented dynamic API integration, responsive UI design, and fast search functionality to provide seamless train discovery across routes and stations. </p>
+          <p className='projectblockdesc'> Challenges overcome: Handled API rate limits, optimized data fetching, and improved loading performance for smooth user experience on low networks. </p>
+          <div className='projectblockskills'>
+            <span className='projectblockskill'>React.js</span>
+            <span className='projectblockskill'>Tailwind CSS</span>
+            <span className='projectblockskill'>REST API</span>
+            <span className='projectblockskill'>Responsive Design</span>
+            <span className='projectblockskill'>Render Deployment</span>
+          </div>
+          <div className='projectblockprojects'>
+            {/* <a href='#' className='projectblockproject' target="_blank" rel="noopener noreferrer"> Documentation </a> */}
+            <a href="https://github.com/Beepalisrikanth/FIND_MY_TRAIN" className='projectblockproject' target="_blank" rel="noopener noreferrer"> View Code </a>
+            <a href="https://find-my-train-beepali-srikanth.onrender.com/" className='projectblockproject' target="_blank" rel="noopener noreferrer"> Live Demo </a>
           </div>
         </div>
 
@@ -125,6 +147,7 @@ const Projects = () => {
           </div>
         </div>
 
+        {viewMore && <>
 
         <div className='projectblock'>
           <img src={p4} alt="Password Generator Project" className='projectblockimg'></img>
@@ -145,8 +168,76 @@ const Projects = () => {
           </div>
         </div>
 
+            <div className='projectblock'>
+              <img src={p4} alt="Password Generator Project" className='projectblockimg'></img>
+              <p className='projectblocktitle'>Password Generator </p>
+              <p className='projectblocksubtitle'>Strong & Secure Password Generator Web App</p>
+              <p className='projectblockdesc'>Fast and customizable password generator with options for length, character types, strength indicator, and one-click copy functionality.</p>
+              {/* <p className='projectblockdesc'></p> */}
+              {/* <p className='projectblockdesc'></p> */}
+              <div className='projectblockskills'>
+                <span className='projectblockskill'> HTML</span>
+                <span className='projectblockskill'> CSS</span>
+                <span className='projectblockskill'> JavaScript</span>
+              </div>
+              <div className='projectblockprojects'>
+                <a href='https://github.com/Beepalisrikanth/Password_Generated_by_srikanth?tab=readme-ov-file' className='projectblockproject' target="_blank" rel="noopener noreferrer">Documentation</a>
+                <a href="https://github.com/Beepalisrikanth/Password_Generated_by_srikanth" className='projectblockproject' target="_blank" rel="noopener noreferrer" >View Code</a>
+                <a href="https://password-generated-by-srikanth-gv30.onrender.com" className='projectblockproject' target="_blank" rel="noopener noreferrer" > Live Demo </a>
+              </div>
+            </div>
+
+            <div className='projectblock'>
+              <img src={p4} alt="Password Generator Project" className='projectblockimg'></img>
+              <p className='projectblocktitle'>Password Generator </p>
+              <p className='projectblocksubtitle'>Strong & Secure Password Generator Web App</p>
+              <p className='projectblockdesc'>Fast and customizable password generator with options for length, character types, strength indicator, and one-click copy functionality.</p>
+              {/* <p className='projectblockdesc'></p> */}
+              {/* <p className='projectblockdesc'></p> */}
+              <div className='projectblockskills'>
+                <span className='projectblockskill'> HTML</span>
+                <span className='projectblockskill'> CSS</span>
+                <span className='projectblockskill'> JavaScript</span>
+              </div>
+              <div className='projectblockprojects'>
+                <a href='https://github.com/Beepalisrikanth/Password_Generated_by_srikanth?tab=readme-ov-file' className='projectblockproject' target="_blank" rel="noopener noreferrer">Documentation</a>
+                <a href="https://github.com/Beepalisrikanth/Password_Generated_by_srikanth" className='projectblockproject' target="_blank" rel="noopener noreferrer" >View Code</a>
+                <a href="https://password-generated-by-srikanth-gv30.onrender.com" className='projectblockproject' target="_blank" rel="noopener noreferrer" > Live Demo </a>
+              </div>
+            </div>
+
+            <div className='projectblock'>
+              <img src={p4} alt="Password Generator Project" className='projectblockimg'></img>
+              <p className='projectblocktitle'>Password Generator </p>
+              <p className='projectblocksubtitle'>Strong & Secure Password Generator Web App</p>
+              <p className='projectblockdesc'>Fast and customizable password generator with options for length, character types, strength indicator, and one-click copy functionality.</p>
+              {/* <p className='projectblockdesc'></p> */}
+              {/* <p className='projectblockdesc'></p> */}
+              <div className='projectblockskills'>
+                <span className='projectblockskill'> HTML</span>
+                <span className='projectblockskill'> CSS</span>
+                <span className='projectblockskill'> JavaScript</span>
+              </div>
+              <div className='projectblockprojects'>
+                <a href='https://github.com/Beepalisrikanth/Password_Generated_by_srikanth?tab=readme-ov-file' className='projectblockproject' target="_blank" rel="noopener noreferrer">Documentation</a>
+                <a href="https://github.com/Beepalisrikanth/Password_Generated_by_srikanth" className='projectblockproject' target="_blank" rel="noopener noreferrer" >View Code</a>
+                <a href="https://password-generated-by-srikanth-gv30.onrender.com" className='projectblockproject' target="_blank" rel="noopener noreferrer" > Live Demo </a>
+              </div>
+            </div>
+
+          </>
+
+        }
+
       </div>
-      <button className='seemore'>See More</button>
+      <button onClick={() => {
+        if (viewMore) {
+          setViewMore(false)
+        }
+        else {
+          setViewMore(true)
+        }
+      }} className='seemore'>{viewMore ? "View Less Projects" : "View More Projects"}</button>
     </section>
   )
 }
