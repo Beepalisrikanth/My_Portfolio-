@@ -1,0 +1,13 @@
+.innerResumes{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content:center ;
+    
+}
+.aimg{
+    padding: 1px;
+    margin: 3px 0px 0px 0px;
+}
+.alink{
+    padding: 20px;
+}

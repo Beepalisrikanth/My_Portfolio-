@@ -18,6 +18,8 @@ const Intro = () => {
             <p className='intropara'>  I build modern, responsive web applications using the MERN stack and browser-based AI, turning ideas into real-world products — from AI systems to full-scale platforms with payments and admin dashboards.</p>
 
             <div className='btnlinks'>  
+
+              {/* <a  href="https://drive.google.com/uc?export=download&id=1y9T6N9dN_68PaFaBqpY-Y-K1-7e45eMi"  className="alink" ><img src={download} alt="resume" className="aimg" /><span className="atext">Resume</span> </a> */}
               <a href="https://drive.google.com/file/d/1y9T6N9dN_68PaFaBqpY-Y-K1-7e45eMi/view?usp=sharing" className='alink' target="_blank" rel="noopener noreferrer" ><img src={download} alt="resume" className='aimg'></img><span className='atext'>Resume</span></a>
               <a href="https://www.linkedin.com/in/beepali-srikanth-bab716281/" className='alink' target="_blank" rel="noopener noreferrer" ><img src={linkedin}  alt="github" className='aimg'></img><span className='atext'>LinkedIn</span></a>
               <a href="https://github.com/Beepalisrikanth" className='alink' target="_blank" rel="noopener noreferrer" ><img src={github} alt="github" className='aimg'></img><span className='atext'>GitHub</span></a>       
